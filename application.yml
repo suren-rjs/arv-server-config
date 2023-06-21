@@ -4,3 +4,5 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://ec2-35-172-119-179.compute-1.amazonaws.com:8761/eureka
+  instance:
+    hostname: ec2-35-172-119-179.compute-1.amazonaws.com
